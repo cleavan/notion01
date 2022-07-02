@@ -76,21 +76,47 @@
 
   </style>
 
-</head>
-<body>
-  <section class="section">
-    <div id="display">0:00</div>
   
-    <div class="buttons">
-      <input type="text" id="input" name="input" placeholder="minutes">
-      <input type="text" id="input2" name="input2" placeholder="seconds">
 
-      <button onclick="start()">▶</button>
-      <button onclick="cancel()">∎</button>
-    </div>
-    
-  </section>
-</body>
+  </head>
+  <body>
+    <section class="section">
+      <div id="display">0:00</div>
+
+      <div class="buttons">
+        <input type="text" id="input" name="input" placeholder="minutes">
+        <input type="text" id="input2" name="input2" placeholder="seconds">
+
+        <button onclick="start()">
+          <span class="material-symbols-outlined">play_arrow</span>
+        </button>
+        
+        <button onclick="cancel()">
+          <span class="material-symbols-outlined">stop</span>
+        </button>
+      </div>
+
+    </section>
+  </body>
+
+  
+<!--
+  </head>
+  <body>
+    <section class="section">
+      <div id="display">0:00</div>
+
+      <div class="buttons">
+        <input type="text" id="input" name="input" placeholder="minutes">
+        <input type="text" id="input2" name="input2" placeholder="seconds">
+
+        <button onclick="start()">▶</button>
+        <button onclick="cancel()">∎</button>
+      </div>
+
+    </section>
+  </body>
+-->
 
 
 <script>
